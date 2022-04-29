@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Ms+Madi&family=Roboto:wght@100;300;500&family=Work+Sans:wght@100&display=swap');
+body{
+    border:0;
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    font-family: 'Ms madi',cursive;
+    background-image:url("./layered-waves-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+.flex-center{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.mainContainer{
+    /* border:2px solid rgb(239,95,103); */
+    border-radius: 25px;
+    margin:5rem auto 0 auto;
+}
+#header{
+    border-radius: 25px;
+    /* border-bottom:2px solid rgb(239,95,103); */
+    font-size: 4.5em;
+    text-align: center;
+    color:#00FF00;
+}
+#header h3{
+    margin:0;
+}
+#body{
+    border-radius: 25px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+#body h2{
+    text-align: center;
+    font-size: 6em;
+    margin: 0;
+    font-weight: 400;
+}
+#savecountText{
+    text-align: center;
+    font-size: 2em;
+}
+#footer{
+   width: 100%;
+}
+#operations{
+    margin:1rem auto;
+    width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#saveReset{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+button{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color:#00FF00;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 25%;
+    background: none;
+    outline:none;
+    border:2px solid crimson;
+    background: linear-gradient(to left, rgb(0,18,32) 50%, crimson 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
+}
+button:hover{
+    background-position: left;
+    border:none;
+}
